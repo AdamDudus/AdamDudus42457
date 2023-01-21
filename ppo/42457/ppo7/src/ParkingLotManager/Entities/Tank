@@ -1,0 +1,17 @@
+package ParkingLotManager.Entities;
+
+import ParkingLotManager.Interfaces.EntityInterface;
+
+public class Tank implements EntityInterface {
+
+    public String identify() {
+        return "Tank is to wide of the parkingspot";
+    }
+
+    public boolean canEnter() {
+        return false;
+    }
+    public boolean havetopay() {
+        return false;
+    }
+}
